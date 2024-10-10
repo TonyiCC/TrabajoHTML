@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <style>
+        .textarea{
+            align-items: center;
+            display: flex;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi primera WEB</h1>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contenidos.html">Contenido</a></li>
+                <li><a href="contacto.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <h2>Contactame aquí</h2>
+
+
+    <form action="" method="get">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <br><br>
+
+        <div class="textarea">
+            <label for="biografia">Biografía:</label>
+            <textarea id="biografia" name="biografia" rows="4" required></textarea>
+        </div>
+        
+        <br><br>
+        
+        
+        <label for="edad">Edad:</label>
+        <select id="edad" name="edad">
+            <option value="mayor_de_edad">Mayor de edad</option>
+            <option value="adulto">Adulto</option>
+            <option value="mayor_65">Mayor de 65 años</option>
+        </select>
+    
+        
+
+        <br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
+
